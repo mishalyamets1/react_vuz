@@ -31,6 +31,5 @@ const FilterButtons = ({active, onChange, counts}) => {
     </div>
   )
 }
-
 export default FilterButtons
 export {FILTERS}
