@@ -2,11 +2,13 @@ import './App.css';
 import Greeting from './Greeting';
 import UserCard from './UserCard';
 import TaskList from './TaskList'
+import Counter from './Counter';
+import TechnologyCard from './TechnologyCard';
 function App() {
  return (
  <div className="App">
  <h1>Моё React приложение</h1>
- <Greeting/>
+ {/* <Greeting/>
 
  <UserCard name="Иван" role="Админ" avatarUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfVMhpKmVy_-iwfRLAiNiaDslMa-2oEz7KTw&s"
       isOnline={true}/>
@@ -15,6 +17,9 @@ function App() {
  <UserCard name="Петр" role="Менеджер" avatarUrl="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfVMhpKmVy_-iwfRLAiNiaDslMa-2oEz7KTw&s"
       isOnline={true}/>
       <TaskList/>
+      <Counter/>  */}
+      <TechnologyCard></TechnologyCard>
+      
  </div>
  );
 }

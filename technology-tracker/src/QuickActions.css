@@ -1,0 +1,22 @@
+.actions-box{
+    display: flex;
+   margin-top: 10px; 
+}
+.completed-all, .reset-all, .random{
+    border: 2px solid;
+    text-align: center;
+    height: 100px;
+    border-radius: 12px;
+    margin-right: 5px;
+    padding: 4px;
+    background-color: #3b82f6;
+    color: white;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.completed-all:hover, .reset-all:hover, .random:hover{
+    background-color:#2563eb;
+}
+.action-title{
+    text-align: center;
+}

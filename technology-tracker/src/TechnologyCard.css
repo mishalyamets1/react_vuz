@@ -1,0 +1,68 @@
+.item_tech {
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 15px;
+    max-width: 300px;
+
+}
+.item_tech:first-child{
+    margin-top: 30px;
+}
+.item_tech-title{
+    color:blue;
+}
+.item_tech-description {
+    font-size: 12px;
+}
+.item_tech-status {
+    margin-top: 5px;
+    color: gray;
+    opacity: 50%;
+    transition: all 0.5s ease  ;
+}
+.tech {
+    width: 300px;
+}
+.progress {
+    width: 100%;
+    height: 12px;
+    background: #e5e7eb;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.progress-bar{
+    height: 100%;
+    background-color: #3b82f6;
+    transition: all ease 0.3s;
+}
+.btn-box {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-go{
+    padding: 6px 12px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button-go:hover{
+    background-color: #2563eb;
+}
+.button-completed{
+    padding: 6px 12px;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.button-completed:hover{
+    background-color: #059669;
+}
